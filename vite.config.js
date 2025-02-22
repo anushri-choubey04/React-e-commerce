@@ -5,8 +5,12 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   base: "/React-e-commerce/",
-  plugins: [react(), tailwindcss()],
-
+  plugins: [react(), tailwindcss()
+    
+  ],
+  
+    "@tailwindcss/postcss": {},
+  
   resolve: {
     alias: {
       "@": "/src",
