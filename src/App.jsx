@@ -81,9 +81,9 @@ function App() {
 
           <div className="relative text-center ">
             <div className='text-center' >
-              <div className="bg-gradient-to-r from-gray-900 to-yellow-400 text-white rounded-lg p-50 ">  <div >
+              <div className="bg-gradient-to-r from-gray-900 to-yellow-400 text-white rounded-lg p-60 ">  <div >
                   <h1 className="text-7xl font-bold mb-4 text-center">
-                    Welcome to <span className="underline">My Store</span>
+                    Welcome to <span className="underline  ">My Store </span>
                   </h1>
                   <h2 className="text-4xl font-bold mb-2 text-center">Your Shopping Destination</h2>
                   

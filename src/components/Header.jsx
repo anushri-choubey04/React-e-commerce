@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Search, ShoppingCart,  ChevronDown } from "lucide-react";
+import { Search, ShoppingCart, ChevronDown } from "lucide-react";
 import { useSelector } from "react-redux";
 import CartModal from "./CartModal";
 import PropTypes from "prop-types";
@@ -66,7 +66,7 @@ const Header = ({ onCategorySelect, categories, onSearch }) => {
                     More Option <ChevronDown className="w-4 h-4 ml-1" />
                   </button>
                   {isCategoryOpen && (
-                    <div className="absolute top-full left-0 mt-1 w-48 bg-grey rounded-lg shadow-lg py-2 z-50 hover:text-white cursor-pointer">
+                    <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-lg shadow-lg py-2 z-50 hover:text-black cursor-pointer">
                       {categories.map((category) => (
                         <button
                           key={category}
@@ -126,7 +126,6 @@ const Header = ({ onCategorySelect, categories, onSearch }) => {
                     </span>
                   )}
                 </button>
-                
               </div>
             </div>
           </div>
